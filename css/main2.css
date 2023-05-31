@@ -1,0 +1,52 @@
+.eat{
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto;
+    background:linear-gradient(100deg,midnightblue,dodgerblue);
+}
+.text{
+    position: fixed;
+    top: 280px;
+    right: 800px;
+    left: 600px;
+    width: 150px;
+    height: 150px;
+    bottom:20px;
+    transition: all 5s ease-in-out;
+    border-radius: 25px;
+    animation-name: text;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes text {
+    0%{
+        transform: translate(500px,50px);
+        background:#7eecee;
+    }
+    25% {
+        transform: translate(+500px,50px);
+        background:#7eecee ;
+    }
+    50%{
+        transform:rotate(180deg) translate(-500px,50px);
+        background-color: hotpink;
+    }
+    75%{
+        transform:translate(0,-50px);
+        background:hotpink;
+    }
+    100%{
+        transform: translate(0,0);
+        background: #89e389;
+    }
+}
+
+
+
+
+
+
+
+
